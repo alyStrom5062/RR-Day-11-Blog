@@ -2,6 +2,7 @@ import React from "react";
 
 export default function Post2() {
     return (
+        <main>
         <div>
             <h2>10 Essential Tips for Mastering Web Development and Design</h2>
             <h3><a href="/authors">Jane Doe</a></h3>
@@ -16,5 +17,6 @@ export default function Post2() {
             <p>Proin eget tristique risus, at imperdiet nulla. Etiam at porttitor leo. Cras pellentesque mauris sit amet semper semper. Nunc et consectetur ante. Integer ut augue neque. Fusce posuere commodo ligula, eu mollis lacus tincidunt et. Curabitur egestas rhoncus diam nec condimentum. Ut non eleifend felis. Etiam in nibh sed magna fermentum faucibus in in sapien. In in rutrum sem, nec iaculis tortor. Pellentesque feugiat lacus dui, accumsan varius turpis facilisis eu. Ut est nulla, pretium nec accumsan nec, placerat vitae purus. Pellentesque tempor augue mauris, non sagittis lacus facilisis vel. Aliquam ut feugiat enim. Morbi mattis placerat lacinia.</p>
 
         </div>
+        </main>
     )
 }

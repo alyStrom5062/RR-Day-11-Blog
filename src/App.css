@@ -1,12 +1,14 @@
 html {
-  text-align: center;
-  margin: 0 250px;
+  margin: 0 200px auto;
 }
 header { 
   display: flex;
 }
 h1 { 
   text-align: left;
+}
+h2, h3 {
+  color: #333;
 }
 nav ul {
   list-style: none;
@@ -15,18 +17,38 @@ nav ul {
 nav ul li {
   padding: 20px;
 }
+.readmore {
+  text-decoration: underline;
+}
 a {
   text-decoration: none;
   color: #000;
 }
 a:hover {
-  color: blue;
+  color: #C94145;
 }
-div .authors {
-  display: flex;
-  flex-wrap: wrap;
+.authors-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+.author {
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  grid-gap: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.author img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
 }
 footer {
   padding: 20px 0 40px 0 ;
   border-top: #000 solid 2px;
+}
+.green {
+  color: #5B4A81;
 }

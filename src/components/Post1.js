@@ -2,8 +2,9 @@ import React from "react";
 
 export default function Post1() {
     return (
+        <main>
         <div>
-            <h2>Unraveling the Mysteries of Artificial Intelligence: A Beginner's Guide"</h2>
+            <h2>Unraveling the Mysteries of Artificial Intelligence</h2>
             <h3><a href="/authors">John Smith</a></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fringilla ante imperdiet tellus aliquet feugiat. Nunc sed nunc posuere, congue risus vel, convallis leo. Maecenas sodales rhoncus finibus. Mauris convallis, lectus sit amet hendrerit faucibus, turpis nunc rutrum quam, quis luctus nibh ex ac quam. Vestibulum a enim a felis rhoncus feugiat non a justo. Nunc lacinia, mi a ultrices sodales, quam ante ornare nisi, sit amet iaculis sem velit a tellus. Sed ante erat, eleifend vitae eros at, molestie vehicula justo.</p>
 
@@ -16,5 +17,6 @@ export default function Post1() {
             <p>Proin eget tristique risus, at imperdiet nulla. Etiam at porttitor leo. Cras pellentesque mauris sit amet semper semper. Nunc et consectetur ante. Integer ut augue neque. Fusce posuere commodo ligula, eu mollis lacus tincidunt et. Curabitur egestas rhoncus diam nec condimentum. Ut non eleifend felis. Etiam in nibh sed magna fermentum faucibus in in sapien. In in rutrum sem, nec iaculis tortor. Pellentesque feugiat lacus dui, accumsan varius turpis facilisis eu. Ut est nulla, pretium nec accumsan nec, placerat vitae purus. Pellentesque tempor augue mauris, non sagittis lacus facilisis vel. Aliquam ut feugiat enim. Morbi mattis placerat lacinia.</p>
 
         </div>
+        </main>
     )
 }
